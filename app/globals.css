@@ -1,26 +1,91 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f5f2eb;
+  --foreground: #1c1917;
+  --card: #ffffff;
+  --card-foreground: #1c1917;
+  --muted: #ebe6dc;
+  --muted-foreground: #57534e;
+  --border: #e0d9cc;
+  --primary: #8b4519;
+  --primary-hover: #723a14;
+  --primary-foreground: #fffaf5;
+  --destructive: #b91c1c;
+  --ring: #c4a574;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-destructive: var(--destructive);
+  --color-ring: var(--ring);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--primary) 25%, transparent);
+}
+
+@keyframes btn-success {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--primary) 40%, transparent);
+  }
+  40% {
+    transform: scale(1.03);
+    box-shadow: 0 0 0 8px color-mix(in srgb, var(--primary) 0%, transparent);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-btn-success {
+  animation: btn-success 0.55s ease-out;
+}
+
+@keyframes list-item-in {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-list-item-in {
+  animation: list-item-in 0.4s ease-out;
+}
+
+@keyframes form-flash {
+  0%,
+  100% {
+    background-color: color-mix(in srgb, var(--muted) 20%, transparent);
+  }
+  50% {
+    background-color: color-mix(in srgb, var(--primary) 12%, transparent);
+  }
+}
+
+.animate-form-flash {
+  animation: form-flash 0.7s ease-out;
 }

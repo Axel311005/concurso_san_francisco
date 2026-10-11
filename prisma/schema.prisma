@@ -1,0 +1,136 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum SessionStatus {
+  lobby
+  question_live
+  team_answering
+  judging
+  show_scores
+  tiebreaker
+  finished
+}
+
+enum AttemptOutcome {
+  pending
+  scored
+  wrong
+  timeout
+}
+
+model Question {
+  id               String            @id @default(cuid())
+  texto            String
+  respuestaOficial String
+  categoria        String
+  puntosBase       Int
+  esDesempate      Boolean           @default(false)
+  textoHash        String            @unique
+  createdAt        DateTime          @default(now())
+  sessionQuestions SessionQuestion[]
+}
+
+model Session {
+  id                       String            @id @default(cuid())
+  code                     String            @unique
+  status                   SessionStatus     @default(lobby)
+  config                   Json
+  revision                 Int               @default(0)
+  currentSessionQuestionId String?
+  activeAttemptId          String?
+  timerEndsAt              DateTime?
+  tiebreakerTeamIds        Json?
+  createdAt                DateTime          @default(now())
+  teams                    Team[]
+  judges                   Judge[]
+  sessionQuestions         SessionQuestion[]
+  buzzes                   Buzz[]
+}
+
+model Team {
+  id          String    @id @default(cuid())
+  sessionId   String
+  nombre      String
+  miembros    Json
+  ordenTurno  Int
+  totalPuntos Int       @default(0)
+  session     Session   @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  attempts    Attempt[]
+  buzzes      Buzz[]
+
+  @@index([sessionId])
+}
+
+model Judge {
+  id        String       @id @default(cuid())
+  sessionId String
+  label     String
+  pinHash   String
+  session   Session      @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  scores    JudgeScore[]
+
+  @@unique([sessionId, label])
+}
+
+model SessionQuestion {
+  id         String    @id @default(cuid())
+  sessionId  String
+  questionId String
+  orden      Int
+  cerrada    Boolean   @default(false)
+  session    Session   @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  question   Question  @relation(fields: [questionId], references: [id])
+  attempts   Attempt[]
+  buzzes     Buzz[]
+
+  @@unique([sessionId, questionId])
+  @@index([sessionId])
+}
+
+model Attempt {
+  id                String         @id @default(cuid())
+  sessionQuestionId String
+  teamId            String
+  usoComodin        Boolean        @default(false)
+  respondedByName   String?
+  outcome           AttemptOutcome @default(pending)
+  puntosFinales     Int?
+  startedAt         DateTime?
+  endedAt           DateTime?
+  sessionQuestion   SessionQuestion @relation(fields: [sessionQuestionId], references: [id], onDelete: Cascade)
+  team              Team           @relation(fields: [teamId], references: [id], onDelete: Cascade)
+  scores            JudgeScore[]
+
+  @@unique([sessionQuestionId, teamId])
+}
+
+model JudgeScore {
+  id        String  @id @default(cuid())
+  attemptId String
+  judgeId   String
+  points    Int
+  attempt   Attempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  judge     Judge   @relation(fields: [judgeId], references: [id], onDelete: Cascade)
+
+  @@unique([attemptId, judgeId])
+}
+
+model Buzz {
+  id                String          @id @default(cuid())
+  sessionId         String
+  sessionQuestionId String
+  teamId            String
+  createdAt         DateTime        @default(now())
+  session           Session         @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  sessionQuestion   SessionQuestion @relation(fields: [sessionQuestionId], references: [id], onDelete: Cascade)
+  team              Team            @relation(fields: [teamId], references: [id], onDelete: Cascade)
+
+  @@index([sessionId, sessionQuestionId])
+}

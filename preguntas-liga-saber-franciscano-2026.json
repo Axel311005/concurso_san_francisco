@@ -1,0 +1,552 @@
+{
+  "event": {
+    "title": "Liga del Saber Franciscana 2026",
+    "date": "2026-10-10",
+    "venue": "Salón San Juan Pablo II"
+  },
+  "source": "Cuestionario Liga del Saber Franciscano 2026.pdf",
+  "importFormatVersion": 2,
+  "questions": [
+    {
+      "id": 1,
+      "text": "¿Cuál es el nombre de nacimiento de San Francisco de Asís, dónde nació, en qué año y aproximadamente a qué edad murió?",
+      "modelAnswer": "Su nombre de nacimiento fue Giovanni di Pietro di Bernardone. Nació en Asís, Italia, entre 1181 y 1182, y murió el 3 de octubre de 1226, aproximadamente a los 44 años.",
+      "category": "I. San Francisco de Asís — Su vida",
+      "basePoints": 15,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 2,
+      "text": "¿Quiénes fueron los padres de San Francisco y cuál era la profesión de su padre?",
+      "modelAnswer": "Sus padres fueron Pietro Bernardone y Pica de Bourlemont. Su padre era un rico comerciante de telas, por lo que Francisco creció en una familia económicamente acomodada.",
+      "category": "I. San Francisco de Asís — Su vida",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 3,
+      "text": "¿Qué nombre recibió Francisco al ser bautizado y por qué posteriormente comenzó a ser llamado Francesco?",
+      "modelAnswer": "Fue bautizado con el nombre de Giovanni. Su padre comenzó a llamarlo Francesco, posiblemente debido a su relación comercial y admiración por Francia.",
+      "category": "I. San Francisco de Asís — Su vida",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 4,
+      "text": "¿Qué aspiraciones tenía Francisco durante su juventud antes de iniciar su proceso de conversión?",
+      "modelAnswer": "Francisco soñaba con convertirse en caballero, alcanzar prestigio y reconocimiento social. Participó en conflictos militares y fue hecho prisionero, experiencias que posteriormente influyeron en su proceso de conversión.",
+      "category": "I. San Francisco de Asís — Su vida",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 5,
+      "text": "¿Qué acontecimiento relacionado con la guerra llevó a Francisco a permanecer prisionero en Perugia?",
+      "modelAnswer": "Participó en la guerra entre Asís y Perugia y fue capturado por los peruginos. Permaneció aproximadamente un año como prisionero, experiencia que contribuyó a cambiar su manera de comprender la vida.",
+      "category": "I. San Francisco de Asís — Su vida",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 6,
+      "text": "¿Qué sucedió cuando Francisco se encontró con un leproso y por qué este acontecimiento fue importante?",
+      "modelAnswer": "Francisco venció el miedo y rechazo que sentía hacia los leprosos, se acercó a uno de ellos y lo abrazó. Después experimentó que aquello que antes le parecía amargo se había convertido en dulzura, siendo un momento fundamental de su conversión.",
+      "category": "I. San Francisco de Asís — Su vida",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 7,
+      "text": "¿Qué sucedió en la iglesia de San Damián que marcó profundamente la vida de Francisco?",
+      "modelAnswer": "Mientras oraba ante el crucifijo, Francisco escuchó a Cristo decirle: \"Francisco, ve y repara mi Iglesia\". Inicialmente comenzó reparando físicamente iglesias, pero después comprendió que la llamada se refería también a la renovación espiritual de la Iglesia.",
+      "category": "I. San Francisco de Asís — Su vida",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": true
+    },
+    {
+      "id": 8,
+      "text": "¿Qué ocurrió entre Francisco y su padre cuando decidió abandonar su antigua forma de vida?",
+      "modelAnswer": "Su padre se opuso fuertemente a sus decisiones. Francisco renunció públicamente a los bienes de su familia ante el obispo Guido, devolvió incluso sus vestiduras y manifestó que desde entonces tendría como Padre a Dios.",
+      "category": "I. San Francisco de Asís — Su vida",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 9,
+      "text": "¿Quién era el obispo Guido y qué papel tuvo en la vida de Francisco?",
+      "modelAnswer": "Era el obispo de Asís. Estuvo presente cuando Francisco renunció públicamente a los bienes de su padre y posteriormente apoyó su proceso de conversión y su nueva forma de vida.",
+      "category": "I. San Francisco de Asís — Su vida",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 10,
+      "text": "¿Qué lugar ocupó la Porciúncula en la vida de San Francisco?",
+      "modelAnswer": "La Porciúncula, una pequeña iglesia dedicada a Santa María de los Ángeles, se convirtió en uno de los lugares más importantes para Francisco y sus primeros hermanos. Allí se desarrolló buena parte de la fraternidad y allí murió Francisco.",
+      "category": "I. San Francisco de Asís — Su vida",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 11,
+      "text": "¿Qué significa la conversión de San Francisco y por qué no puede entenderse como un único momento?",
+      "modelAnswer": "Su conversión fue un proceso progresivo en el que pasó de buscar riquezas, prestigio y reconocimiento a buscar a Dios y vivir el Evangelio. Incluyó experiencias como el encuentro con los leprosos, San Damián, la renuncia a sus bienes y el servicio a los pobres.",
+      "category": "II. Conversión y seguimiento de Cristo",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 12,
+      "text": "¿Qué significa para Francisco \"seguir a Cristo\" y cómo lo manifestó concretamente?",
+      "modelAnswer": "Significaba vivir según el Evangelio e imitar a Jesús, especialmente en la pobreza, humildad, servicio, fraternidad y amor. Francisco lo manifestó renunciando a sus bienes y dedicándose completamente al Evangelio.",
+      "category": "II. Conversión y seguimiento de Cristo",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 13,
+      "text": "¿Por qué la pobreza fue una decisión fundamental en la vida de Francisco?",
+      "modelAnswer": "Porque quería seguir el ejemplo de Cristo pobre y humilde. La pobreza le permitió vivir con desprendimiento, confiar en Dios y acercarse a los pobres sin colocar los bienes materiales en el centro de su vida.",
+      "category": "II. Conversión y seguimiento de Cristo",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 14,
+      "text": "¿Qué diferencia existe entre la pobreza franciscana y simplemente no tener dinero?",
+      "modelAnswer": "La pobreza franciscana implica desprendimiento, sencillez y confianza en Dios. No consiste únicamente en carecer de bienes, sino en no permitir que las riquezas, el poder o las posesiones dominen la vida y en estar dispuesto a compartir.",
+      "category": "II. Conversión y seguimiento de Cristo",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 15,
+      "text": "¿Qué importancia tuvo el Evangelio en la formación de la primera fraternidad franciscana?",
+      "modelAnswer": "El Evangelio fue la base de la forma de vida de Francisco y sus primeros compañeros. Ellos buscaban vivirlo de manera concreta mediante la pobreza, fraternidad, predicación, oración y servicio.",
+      "category": "II. Conversión y seguimiento de Cristo",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 16,
+      "text": "¿Qué entendemos por carisma franciscano y cuáles son algunos de sus elementos fundamentales?",
+      "modelAnswer": "Es la forma particular de vivir el Evangelio inspirada en San Francisco. Sus elementos fundamentales incluyen el seguimiento de Cristo, fraternidad, minoridad, pobreza, servicio, paz, alegría y cuidado de la creación.",
+      "category": "III. Carisma franciscano",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 17,
+      "text": "¿Qué significa vivir la fraternidad desde el carisma franciscano?",
+      "modelAnswer": "Significa reconocer al otro como hermano, valorar su dignidad, compartir, perdonar, escuchar y caminar juntos. La fraternidad franciscana busca superar el individualismo y construir relaciones basadas en el amor y el servicio.",
+      "category": "III. Carisma franciscano",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 18,
+      "text": "¿Qué significa la palabra \"minoridad\" en la espiritualidad franciscana?",
+      "modelAnswer": "Significa asumir una actitud de humildad y servicio, sin considerarse superior a los demás. El menor busca servir antes que dominar y ponerse al lado de quienes necesitan acompañamiento.",
+      "category": "III. Carisma franciscano",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 19,
+      "text": "¿Por qué Francisco llamó \"Hermanos Menores\" a sus primeros compañeros?",
+      "modelAnswer": "Porque quería que vivieran como hermanos y menores, es decir, desde la humildad, sencillez y servicio, sin buscar poder o superioridad sobre otras personas.",
+      "category": "III. Carisma franciscano",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 20,
+      "text": "¿Qué relación existe entre fraternidad y servicio en la espiritualidad franciscana?",
+      "modelAnswer": "Si reconocemos al otro como hermano, estamos llamados a servirlo y preocuparnos por él. Para Francisco, la fraternidad no era solamente convivir, sino acompañarse y ponerse al servicio de los demás.",
+      "category": "III. Carisma franciscano",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 21,
+      "text": "¿Qué importancia tiene la humildad dentro del carisma franciscano?",
+      "modelAnswer": "La humildad permite reconocer que todos tenemos dignidad y que nadie debe colocarse por encima de los demás. Ayuda a vivir la minoridad, aceptar al otro y servir sin buscar protagonismo.",
+      "category": "III. Carisma franciscano",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 22,
+      "text": "¿Qué significa \"Paz y Bien\" dentro de la tradición franciscana?",
+      "modelAnswer": "Es un saludo tradicional que expresa el deseo de que la persona encuentre paz y oriente su vida hacia el bien. Resume dos valores esenciales de la espiritualidad franciscana.",
+      "category": "III. Carisma franciscano",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": true
+    },
+    {
+      "id": 23,
+      "text": "¿Cómo puede un joven vivir hoy el carisma franciscano dentro de su comunidad?",
+      "modelAnswer": "Puede vivirlo mediante el servicio, la fraternidad, el respeto, el perdón, la defensa de los más vulnerables, el cuidado de la creación, la oración y la construcción de paz.",
+      "category": "III. Carisma franciscano",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 24,
+      "text": "¿Qué relación existe entre pobreza, solidaridad y servicio en el carisma franciscano?",
+      "modelAnswer": "El desprendimiento de los bienes ayuda a evitar el egoísmo y permite compartir con los demás. Así, la pobreza franciscana se convierte en una forma concreta de solidaridad y servicio.",
+      "category": "III. Carisma franciscano",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 25,
+      "text": "¿Por qué la alegría es importante dentro de la espiritualidad franciscana?",
+      "modelAnswer": "Porque la verdadera alegría nace de la confianza en Dios y no simplemente de tener una vida sin problemas. Francisco enseñó que incluso en medio de dificultades se puede conservar la paz y la esperanza.",
+      "category": "III. Carisma franciscano",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 26,
+      "text": "¿Cómo entendía San Francisco la relación entre Dios, el ser humano y la creación?",
+      "modelAnswer": "Francisco veía a Dios como Creador de todo y consideraba que las criaturas estaban unidas como parte de una misma familia. Por eso se relacionaba con ellas con respeto, gratitud y fraternidad.",
+      "category": "IV. Francisco y la creación",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 27,
+      "text": "¿Por qué San Francisco llamaba \"hermano\" o \"hermana\" a las criaturas?",
+      "modelAnswer": "Porque reconocía que todas tenían un mismo Creador y formaban parte de la creación de Dios. Esta visión lo llevó a relacionarse con la naturaleza desde la fraternidad y no desde la explotación.",
+      "category": "IV. Francisco y la creación",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 28,
+      "text": "¿Qué es el Cántico de las Criaturas y qué expresa?",
+      "modelAnswer": "Es una oración de alabanza compuesta por San Francisco en la que alaba a Dios a través de sus criaturas, como el sol, la luna, el agua, el fuego, la tierra y también por quienes perdonan y soportan las dificultades.",
+      "category": "IV. Francisco y la creación",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 29,
+      "text": "¿Qué nombre recibe también el Cántico de las Criaturas y por qué?",
+      "modelAnswer": "También se conoce como Cántico del Hermano Sol, porque el sol aparece al comienzo de la alabanza como una de las principales criaturas mediante las cuales Francisco alaba a Dios.",
+      "category": "IV. Francisco y la creación",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 30,
+      "text": "¿Qué enseñanza ofrece el Cántico de las Criaturas sobre el cuidado de la naturaleza?",
+      "modelAnswer": "Enseña que la creación es un regalo de Dios y que debemos contemplarla con gratitud, respetarla y cuidarla. La visión franciscana invita a reconocer una relación de fraternidad con la casa común.",
+      "category": "IV. Francisco y la creación",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 31,
+      "text": "¿Por qué San Francisco es considerado un hombre de paz?",
+      "modelAnswer": "Porque buscó vivir el Evangelio promoviendo la reconciliación, el diálogo y la fraternidad, incluso en situaciones de conflicto. Su vida muestra que la paz comienza en la relación con Dios y con los demás.",
+      "category": "V. Paz, perdón y servicio",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 32,
+      "text": "¿Qué importancia tiene el perdón dentro del carisma franciscano?",
+      "modelAnswer": "El perdón permite romper los ciclos de odio y recuperar la fraternidad. Francisco lo entendía como una manera concreta de vivir el amor de Cristo y construir la paz.",
+      "category": "V. Paz, perdón y servicio",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 33,
+      "text": "¿Qué actitud tuvo Francisco hacia las personas que eran diferentes a él?",
+      "modelAnswer": "Procuró acercarse a ellas con respeto, diálogo y fraternidad, sin dejar de vivir su fe. Un ejemplo importante fue su encuentro con el sultán Malik al-Kamil.",
+      "category": "V. Paz, perdón y servicio",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 34,
+      "text": "¿Quién fue el sultán Malik al-Kamil y qué relación tuvo con San Francisco?",
+      "modelAnswer": "Fue el sultán de Egipto con quien Francisco se encontró durante el contexto de las Cruzadas. Francisco buscó acercarse a él mediante el diálogo y el testimonio de su fe, mostrando una actitud de paz.",
+      "category": "V. Paz, perdón y servicio",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 35,
+      "text": "¿Qué nos enseña el encuentro de Francisco con el sultán sobre el diálogo?",
+      "modelAnswer": "Enseña que las diferencias religiosas y culturales no tienen que conducir necesariamente al enfrentamiento. Francisco mostró que es posible encontrarse, escuchar y dialogar con respeto.",
+      "category": "V. Paz, perdón y servicio",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 36,
+      "text": "¿Qué significa la frase \"Francisco, ve y repara mi Iglesia\" y cómo la comprendió Francisco con el tiempo?",
+      "modelAnswer": "Inicialmente Francisco pensó que debía reparar físicamente las iglesias deterioradas. Posteriormente comprendió que Cristo lo llamaba también a contribuir a la renovación espiritual de la Iglesia mediante una vida auténtica del Evangelio.",
+      "category": "VI. San Francisco y la Iglesia",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 37,
+      "text": "¿Qué relación mantuvo Francisco con la Iglesia a pesar de buscar una renovación profunda?",
+      "modelAnswer": "Francisco permaneció fiel y obediente a la Iglesia, buscando vivir el Evangelio dentro de ella. Su intención no era crear una Iglesia diferente, sino vivir con radicalidad el mensaje de Cristo.",
+      "category": "VI. San Francisco y la Iglesia",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 38,
+      "text": "¿Quién aprobó inicialmente la forma de vida de Francisco y sus primeros compañeros?",
+      "modelAnswer": "El papa Inocencio III aprobó oralmente su forma de vida alrededor de 1209-1210, permitiéndoles continuar predicando y viviendo según el Evangelio.",
+      "category": "VI. San Francisco y la Iglesia",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 39,
+      "text": "¿Quién aprobó definitivamente la Regla de los Hermanos Menores y en qué año?",
+      "modelAnswer": "El papa Honorio III aprobó la Regla bulada el 29 de noviembre de 1223 mediante la bula Solet annuere.",
+      "category": "VI. San Francisco y la Iglesia",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": true
+    },
+    {
+      "id": 40,
+      "text": "¿Qué diferencia existe entre la Regla no bulada y la Regla bulada de San Francisco?",
+      "modelAnswer": "La Regla no bulada fue una primera forma de organización de la fraternidad y no recibió aprobación papal formal. La Regla bulada, aprobada por Honorio III en 1223, se convirtió en la regla oficial de los Hermanos Menores.",
+      "category": "VI. San Francisco y la Iglesia",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 41,
+      "text": "¿Quién fue Santa Clara de Asís y cuál fue su relación con San Francisco?",
+      "modelAnswer": "Fue una joven de Asís que decidió consagrarse completamente a Dios siguiendo el ideal evangélico inspirado por Francisco. Fue su amiga, discípula y compañera espiritual, y fundó la comunidad de las Hermanas Pobres.",
+      "category": "VII. Santa Clara y la familia franciscana",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 42,
+      "text": "¿Qué hizo Santa Clara la noche en que decidió abandonar su vida anterior para seguir a Cristo?",
+      "modelAnswer": "Abandonó secretamente su casa y se dirigió a la Porciúncula, donde Francisco y sus hermanos la recibieron. Allí Francisco le cortó el cabello y Clara comenzó oficialmente su vida de consagración.",
+      "category": "VII. Santa Clara y la familia franciscana",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 43,
+      "text": "¿Qué nombre recibió inicialmente la comunidad fundada por Santa Clara?",
+      "modelAnswer": "Fue conocida como las Hermanas Pobres de San Damián, debido al lugar donde vivían y a su compromiso con una vida de pobreza y contemplación.",
+      "category": "VII. Santa Clara y la familia franciscana",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 44,
+      "text": "¿Qué aspecto del carisma franciscano vivió Santa Clara de manera especialmente radical?",
+      "modelAnswer": "Vivió de manera radical la pobreza evangélica, la contemplación, la fraternidad y la entrega total a Cristo, defendiendo hasta el final el privilegio de vivir sin posesiones.",
+      "category": "VII. Santa Clara y la familia franciscana",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 45,
+      "text": "¿Qué documento escribió Santa Clara y qué importancia tiene para la historia de la vida religiosa?",
+      "modelAnswer": "Escribió la Regla de Santa Clara, aprobada por el papa Inocencio IV en 1253. Es especialmente importante porque fue una regla escrita por una mujer para una comunidad femenina y aprobada oficialmente por la Iglesia.",
+      "category": "VII. Santa Clara y la familia franciscana",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 46,
+      "text": "¿En qué lugar y en qué año recibió San Francisco los estigmas?",
+      "modelAnswer": "Los recibió en el monte Alvernia, en 1224, durante un período de profunda oración y contemplación.",
+      "category": "VIII. Los estigmas y los últimos años",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": true
+    },
+    {
+      "id": 47,
+      "text": "¿Qué visión tuvo Francisco antes de recibir los estigmas?",
+      "modelAnswer": "Contempló un serafín con seis alas que tenía en medio de ellas una figura semejante a un hombre crucificado. Después de aquella experiencia recibió en su cuerpo las llagas de Cristo.",
+      "category": "VIII. Los estigmas y los últimos años",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 48,
+      "text": "¿Qué significado tienen los estigmas dentro de la vida espiritual de San Francisco?",
+      "modelAnswer": "Expresan su profunda configuración con Cristo crucificado y su deseo de identificarse con Jesús en el amor, la entrega y el sufrimiento.",
+      "category": "VIII. Los estigmas y los últimos años",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 49,
+      "text": "¿Quién era Fray León y qué relación tuvo con San Francisco?",
+      "modelAnswer": "Fray León fue uno de los compañeros más cercanos de Francisco, a quien acompañó en momentos importantes de su vida. Francisco le tuvo especial confianza y le dirigió escritos como su bendición.",
+      "category": "VIII. Los estigmas y los últimos años",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 50,
+      "text": "¿Qué oración o escrito dirigió Francisco especialmente a Fray León?",
+      "modelAnswer": "La Bendición a Fray León, un breve texto en el que Francisco invoca sobre él la bendición de Dios.",
+      "category": "VIII. Los estigmas y los últimos años",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 51,
+      "text": "¿Qué son las tres órdenes relacionadas con el carisma franciscano?",
+      "modelAnswer": "La Primera Orden, formada por los Hermanos Menores y sus distintas ramas; la Segunda Orden, formada principalmente por las Clarisas; y la Tercera Orden, vinculada a los laicos que desean vivir el Evangelio según el espíritu franciscano.",
+      "category": "IX. Legado de San Francisco",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 52,
+      "text": "¿Qué significa OFM y a qué familia religiosa identifica?",
+      "modelAnswer": "Significa Orden de Frailes Menores, una de las ramas principales de la Primera Orden de la familia franciscana.",
+      "category": "IX. Legado de San Francisco",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 53,
+      "text": "¿Qué significa OFM Conv. y qué caracteriza a esta rama?",
+      "modelAnswer": "Significa Orden de Frailes Menores Conventuales. Forma parte de la Primera Orden franciscana y vive el carisma de Francisco desde una tradición conventual y comunitaria.",
+      "category": "IX. Legado de San Francisco",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 54,
+      "text": "¿Qué significa OFM Cap. y qué familia religiosa identifica?",
+      "modelAnswer": "Significa Orden de Frailes Menores Capuchinos, una rama de la Primera Orden que busca vivir el carisma franciscano con especial énfasis en la sencillez, fraternidad, oración y cercanía con los pobres.",
+      "category": "IX. Legado de San Francisco",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 55,
+      "text": "¿Quién fue San Buenaventura y qué relación tuvo con la familia franciscana?",
+      "modelAnswer": "Fue un fraile franciscano, teólogo y Ministro General de la Orden. Es conocido como el Doctor Seráfico y escribió una importante biografía de San Francisco llamada Legenda Maior.",
+      "category": "IX. Legado de San Francisco",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 56,
+      "text": "¿Qué significa que San Francisco sea llamado \"el Poverello de Asís\"?",
+      "modelAnswer": "Significa \"el Pobrecillo de Asís\". Este título hace referencia a su elección radical de la pobreza, sencillez y desprendimiento para seguir a Cristo.",
+      "category": "IX. Legado de San Francisco",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 57,
+      "text": "¿Cuál fue la principal transformación que experimentó Francisco entre su juventud y su vida como fundador de una fraternidad?",
+      "modelAnswer": "Pasó de buscar riqueza, prestigio, reconocimiento y gloria como caballero a buscar únicamente a Dios, abrazando la pobreza, sirviendo a los pobres y viviendo radicalmente el Evangelio.",
+      "category": "IX. Legado de San Francisco",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 58,
+      "text": "¿Cómo se relacionan en San Francisco la pobreza, la fraternidad y el seguimiento de Cristo?",
+      "modelAnswer": "Para Francisco, seguir a Cristo significaba imitar su vida pobre y humilde. La pobreza favorecía el desprendimiento y la confianza en Dios, mientras que la fraternidad permitía vivir ese Evangelio junto a otros como hermanos.",
+      "category": "IX. Legado de San Francisco",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 59,
+      "text": "¿Por qué podemos afirmar que el carisma franciscano no se limita al cuidado de la naturaleza?",
+      "modelAnswer": "Porque el cuidado de la creación es solamente una parte del carisma. La espiritualidad franciscana también comprende el seguimiento de Cristo, la fraternidad, pobreza, minoridad, servicio, paz, alegría, oración y compromiso con los pobres.",
+      "category": "IX. Legado de San Francisco",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    },
+    {
+      "id": 60,
+      "text": "¿Cómo se puede resumir el corazón del carisma franciscano que San Francisco transmitió a sus seguidores?",
+      "modelAnswer": "En seguir a Cristo y vivir el Evangelio con sencillez y alegría, en fraternidad y minoridad, abrazando la pobreza, sirviendo a los más necesitados, construyendo la paz y cuidando con amor toda la creación.",
+      "category": "IX. Legado de San Francisco",
+      "basePoints": 10,
+      "isTiebreaker": false,
+      "suggestedTiebreaker": false
+    }
+  ],
+  "scoringGuidance": "Cada pregunta tiene una única respuesta oficial (modelAnswer). En el concurso oral el jurado compara lo dicho por el jugador con esa respuesta y asigna puntos según qué tan completa y correcta sea (0 hasta basePoints). No hay respuestas alternativas automáticas ni coincidencia por palabras clave."
+}
